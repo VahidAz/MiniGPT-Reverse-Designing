@@ -1,0 +1,26 @@
+model:
+  arch: minigpt4
+  model_type: pretrain_llama2
+  max_txt_len: 256
+  end_sym: "</s>"
+  low_resource: True
+  prompt_path: "prompts/imad_mix.txt"
+  prompt_path_cmd: "prompts/imad_mix_cmd.txt" # Prompts by having given command
+  prompt_template: '[INST] {} [/INST] '
+  ckpt: "./minigpt4/output/minigpt4_stage2_finetune/exp-401/checkpoint_best9.pth"
+
+datasets:
+  IMAD:
+    vis_processor:
+      train:
+        name: "blip2_image_eval"
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+
+run:
+  task: image_text_pretrain
+  seed: 42
+  data: "../IMAD/filter_cap_test_comp_sen_norm.json"
+  resFileName: "exp-401.csv"

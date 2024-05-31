@@ -1,0 +1,4 @@
+This <Img1><ImageHere1></Img1> converted to <Img2><ImageHere2></Img2> by given below command. What actions are applied on Img1, and what are their corresponding value?\nCommand:\n
+This transformation from <Img1><ImageHere1></Img1> to <Img2><ImageHere2></Img2> is achieved using the command provided below. What actions are implemented on Img1, and what are their corresponding values?\nCommand:\n
+The conversion of <Img1><ImageHere1></Img1> to <Img2><ImageHere2></Img2> is accomplished by the command provided below. What actions are applied to Img1, and what are their corresponding values?\nCommand:\n
+The provided command facilitates the conversion of <Img1><ImageHere1></Img1> to <Img2><ImageHere2></Img2>. What specific actions are applied to Img1, and what are their corresponding values?\nCommand:\n
