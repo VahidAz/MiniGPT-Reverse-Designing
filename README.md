@@ -23,10 +23,10 @@ python eval_IMAD.py --cfg-path eval_configs/minigpt_llama2_eval_IMAD.yaml  --gpu
 ## Acknowledgement
 + [I-MAD](https://gamma.umd.edu/researchdirections/affectivecomputing/tame_rd/) The dataset used in this work.
 + [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) This repository is built upon MiniGPT-4.
-+ [LLaMA-2](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) The Llama 2 language model.
++ [Llama-2](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) The Llama 2 language model.
 
 If you're using MiniGPT-Reverse-Designing, please cite using this BibTeX:
-+ ```bibtex
+```bibtex
 @misc{azizi2024minigptreversedesigning,
       title={MiniGPT-Reverse-Designing: Predicting Image Adjustments Utilizing MiniGPT-4}, 
       author={Vahid Azizi and Fatemeh Koochaki},
