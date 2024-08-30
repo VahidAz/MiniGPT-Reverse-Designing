@@ -20,8 +20,13 @@ python eval_IMAD.py --cfg-path eval_configs/minigpt_llama2_eval_IMAD.yaml  --gpu
 ### Experiment No. 2; best checkpoint
 [Download](https://drive.google.com/file/d/1P-JrX5_iBvTJH7a933H9_T5_Q7mbAFta/view?usp=sharing)
 
-## Cite
-```bibtex
+## Acknowledgement
++ [I-MAD](https://gamma.umd.edu/researchdirections/affectivecomputing/tame_rd/) The dataset used in this work.
++ [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) This repository is built upon MiniGPT-4.
++ [LLaMA-2](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) The Llama 2 language model.
+
+If you're using MiniGPT-Reverse-Designing, please cite using this BibTeX:
++ ```bibtex
 @misc{azizi2024minigptreversedesigning,
       title={MiniGPT-Reverse-Designing: Predicting Image Adjustments Utilizing MiniGPT-4}, 
       author={Vahid Azizi and Fatemeh Koochaki},
@@ -30,11 +35,6 @@ python eval_IMAD.py --cfg-path eval_configs/minigpt_llama2_eval_IMAD.yaml  --gpu
       archivePrefix={arXiv}
     }
 ```
-
-## Acknowledgement
-+ [I-MAD](https://openreview.net/login?redirect=%2Fforum%3Fid%3DZpoXEjHC9K) dataset is used in this work.
-+ [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4) This repository is built upon MiniGPT-4.
-+ [LLaMA-2](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf) The LLaMA 2 language model.
 
 ## License
 License for this repository is [BSD 3-Clause License](LICENSE).
