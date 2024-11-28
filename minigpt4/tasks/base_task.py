@@ -16,6 +16,7 @@ from minigpt4.common.registry import registry
 from minigpt4.datasets.data_utils import prepare_sample
 import wandb
 
+
 class BaseTask:
     def __init__(self, **kwargs):
         super().__init__()
@@ -63,7 +64,8 @@ class BaseTask:
                 dataset['train'].sample_ratio = dataset_config.sample_ratio
 
             datasets[name] = dataset
-
+        
+        print("\n\n>>> After building the dataset: ", datasets)
         return datasets
 
     def train_step(self, model, samples):
@@ -71,7 +73,10 @@ class BaseTask:
         return loss
 
     def valid_step(self, model, samples):
-        raise NotImplementedError
+        assert model.training == False # Verifying the model is in eval mode
+        loss = model(samples)["loss"]
+        return loss
+        # raise NotImplementedError
 
     def before_evaluation(self, model, dataset, **kwargs):
         model.before_evaluation(dataset=dataset, task_type=type(self))
@@ -84,9 +89,10 @@ class BaseTask:
 
     def evaluation(self, model, data_loader, cuda_enabled=True):
         metric_logger = MetricLogger(delimiter="  ")
+        # metric_logger.add_meter("loss", SmoothedValue(window_size=1, fmt="{value:.4f}"))
         header = "Evaluation"
         # TODO make it configurable
-        print_freq = 10
+        print_freq = 100
 
         results = []
 
@@ -94,7 +100,11 @@ class BaseTask:
             samples = prepare_sample(samples, cuda_enabled=cuda_enabled)
 
             eval_output = self.valid_step(model=model, samples=samples)
-            results.extend(eval_output)
+            # results.extend(eval_output)
+            results.append(float(eval_output))
+            
+        # metric_logger.update(loss=sum(results)/float(len(results)))
+        # metric_logger.synchronize_between_processes()
 
         if is_dist_avail_and_initialized():
             dist.barrier()

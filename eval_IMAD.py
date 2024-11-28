@@ -100,9 +100,9 @@ outputs = []
 preds = []
 commands = []
 
-old_data = pd.read_csv("old_data.csv")["prompts"].tolist()
+# old_data = pd.read_csv("old_data.csv")["prompts"].tolist()
 
-for idx in tqdm(range(len(test_data))):  
+for idx in tqdm(range(len(test_data[:10]))):  
     
     item = test_data[idx]
     
@@ -111,10 +111,10 @@ for idx in tqdm(range(len(test_data))):
     cmd = item["command"]
     # print(im_id)
     
-    image1_path = "../IMAD/input_images/" + im_id + ".jpg"
+    image1_path = "data/IMAD/input_images/" + im_id + ".jpg"
     image1 = Image.open(image1_path).convert("RGB")
     
-    image2_path = "../IMAD/output_images/" + im_id + ".jpg"
+    image2_path = "data/IMAD/output_images/" + im_id + ".jpg"
     image2 = Image.open(image2_path).convert("RGB")
 
     image_1 = vis_processor(image1).unsqueeze(0).to(args.gpu_id)
@@ -125,8 +125,8 @@ for idx in tqdm(range(len(test_data))):
 
     emb_lists = []
     
-    # text_input = random.choices(all_prompts, k=1)[0]
-    text_input = old_data[idx]
+    text_input = random.choices(all_prompts, k=1)[0]
+    # text_input = old_data[idx]
     
     if "Command:" in text_input:
         cur_segs = text_input.split("[/INST]")

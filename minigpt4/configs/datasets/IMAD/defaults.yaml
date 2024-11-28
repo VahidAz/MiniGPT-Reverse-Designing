@@ -2,4 +2,4 @@ datasets:
   IMAD:
     data_type: images
     build_info:
-      storage: ../IMAD
+      storage: data/IMAD

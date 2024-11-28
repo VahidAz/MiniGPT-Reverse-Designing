@@ -624,14 +624,14 @@ class RunnerBase:
             "epoch": cur_epoch,
         }
         
-        try:
-            save_to = os.path.join(
-            self.output_dir,
-            "checkpoint_{}.pth".format(("best" + str(cur_epoch)) if is_best else cur_epoch),)
-        except:
-            save_to = os.path.join(
-            self.output_dir,
-            "checkpoint_{}.pth".format("best" if is_best else cur_epoch),)
+        # try:
+        #     save_to = os.path.join(
+        #     self.output_dir,
+        #     "checkpoint_{}.pth".format(("best" + str(cur_epoch)) if is_best else cur_epoch),)
+        # except:
+        save_to = os.path.join(
+        self.output_dir,
+        "checkpoint_{}.pth".format("best" if is_best else cur_epoch),)
 
         logging.info("Saving checkpoint at epoch {} to {}.".format(cur_epoch, save_to))
         torch.save(save_obj, save_to)

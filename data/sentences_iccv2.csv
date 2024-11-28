@@ -1,0 +1,330 @@
+sentence,operation
+Convert the image to black and white,grayscale
+Create a monochromatic version of the image,grayscale
+Turn the image into a black and white photograph,grayscale
+Remove the colors from the image,grayscale
+Convert the image to a gray shade,grayscale
+Produce a gray-toned version of the image,grayscale
+Make the image monochrome,grayscale
+Eliminate the color from the image,grayscale
+Generate a black and white rendition of the image,grayscale
+Strip the colors from the image,grayscale
+Transform the image into a colorless version,grayscale
+Render the image in shades of gray,grayscale
+Desaturate the image,grayscale
+Remove the color from the image,grayscale
+Turn the image into a monochromatic version,grayscale
+Create a black and white version of the image,grayscale
+Transform the image into shades of gray,grayscale
+Change the image to a single color channel,grayscale
+Remove the hue from the image,grayscale
+Create a neutral color version of the image,grayscale
+Convert the image to achromatic tones,grayscale
+Apply a vintage filter to the image,sepia
+Give the image an old-fashioned look,sepia
+Add a brownish tint to the image,sepia
+Apply a nostalgic tone to the image,sepia
+Create a retro-style version of the image,sepia
+Add a faded brown color to the image,sepia
+Apply an antique-style filter to the image,sepia
+"Give the image a classic, aged appearance",sepia
+"Add a warm, earthy tone to the image",sepia
+"Create a vintage, faded effect on the image",sepia
+Apply a historic look to the image,sepia
+Add a time-worn effect to the image,sepia
+"Give the image a historic, aged look",sepia
+"Apply a faded, antique-style filter to the image",sepia
+"Add a brownish-yellow tint to the image, creating an old-fashioned appearance",sepia
+"Add a warm, brownish-grey tint to the image",sepia
+Give the image a vintage look,sepia
+Create a black and white image with a brownish tone,sepia
+Transform the image into a monochrome version with a warm hue,sepia
+"Tint the image with a muted, golden color",sepia
+Create a nostalgiciac effect on the image,sepia
+Give the image an antique look,sepia
+Add a bronze-like tone to the image,sepia
+Create a monochromatic version of the image with a rustic feel,sepia
+"Tint the image with a soft, amber color",sepia
+Apply a warm filter to the image,summer
+Give the image a sunny look,summer
+Add a beach-like atmosphere to the image,summer
+Apply a bright and cheerful filter to the image,summer
+Create a warm and inviting version of the image,summer
+Give the image a bright and colorful appearance,summer
+Apply a filter that evokes a sense of warmth and happiness,summer
+Create a vibrant and lively rendition of the image,summer
+"Add a warm, sun-kissed look to the image",summer
+Apply a filter that enhances the brightness and warmth of the image,summer
+Give the image a cheerful and optimistic feel,summer
+Create an image that exudes the feeling of a warm summer day,summer
+"Add a filter that mimics the warm, golden light of a summer sunset",summer
+Apply a filter that accentuates the natural beauty and radiance of the image.,summer
+"Give the image a warm, sunny glow",summer
+"Add a bright, cheerful tone to the image",summer
+"Create a vibrant, warm-colored version of the image",summer
+"Transform the image into a sunny, cheerful version",summer
+"Enhance the image with a bright, summery feel",summer
+"Add a sunny, golden tone to the image",summer
+"Create a warm, tropical version of the image",summer
+"Give the image a lively, summery atmosphere",summer
+"Add a bright, sunny aura to the image",summer
+"Transform the image into a sunny, warm-colored version",summer
+Apply a cold filter to the image,winter
+Give the image a wintry appearance,winter
+Add a frosty atmosphere to the image,winter
+Create a chilly and crisp version of the image,winter
+Add a cool and icy touch to the image,winter
+Give the image a blue-toned and serene look,winter
+Apply a filter that evokes a sense of stillness and calmness,winter
+Create a frosty and ethereal rendition of the image,winter
+Add a touch of winter magic to the image,winter
+"Apply a filter that enhances the cool, crisp beauty of the image",winter
+Give the image a serene and tranquil feel,winter
+Create an image that captures the peacefulness of winter,winter
+"Add a filter that mimics the soft, cool light of a winter day",winter
+"Give the image a serene and wistful feel, evocative of the winter season.",winter
+"Give the image a cool, frosty look",winter
+"Add a wintry, blue tone to the image",winter
+"Transform the image into a cold, snowy version",winter
+"Enhance the image with a wintery, frosty feel",winter
+"Add a cool, icy hue to the image",winter
+"Create a wintery, frosty version of the image",winter
+"Give the image a cold, snowy atmosphere",winter
+"Add a frosty, blue aura to the image",winter
+"Transform the image into a cold, wintery version",winter
+"Enhance the image with a wintry, icy feel",winter
+Apply a high dynamic range filter to the image,hdr
+Create an image with enhanced contrast and detail,hdr
+Add a filter that improves the range of light and shadow in the image,hdr
+Give the image a more vibrant and lifelike appearance,hdr
+Apply a filter that creates a more realistic representation of the image,hdr
+Create an image that captures a greater range of brightness and colors,hdr
+Add a filter that enhances the depth and richness of the image,hdr
+Apply a dynamic filter that enhances the detail and texture of the image,hdr
+Create an image that has a more balanced and natural appearance,hdr
+Add a filter that captures the full range of colors and textures in the image,hdr
+Apply a filter that accentuates the natural beauty and depth of the image,hdr
+Create an image that has a more true-to-life appearance,hdr
+Add a filter that mimics the way the human eye perceives light and color,hdr
+Apply a filter that enhances the overall quality and beauty of the image,hdr
+Create an image that has a more dynamic and engaging appearance.,hdr
+Enhance the image with a wide dynamic range,hdr
+Create a more vibrant version of the image,hdr
+Increase the contrast and color depth of the image,hdr
+Make the image more lifelike and realistic,hdr
+Enhance the image's detail and clarity,hdr
+Bring out the highlights and shadows in the image,hdr
+Make the image more detailed and sharp,hdr
+Enhance the image with a greater range of tonality,hdr
+Create a more realistic and detailed version of the image,hdr
+Increase the image's color depth and contrast,hdr
+Soften the image,blur
+Smudge the image,blur
+Fuzz the image,blur
+Haze the image,blur
+Obscure the image,blur
+Cloud the image,blur
+Diffuse the image,blur
+Soothe the image,blur
+Muddle the image,blur
+Vague the image,blur
+Apply a soft focus effect to the image,blur
+Give the image a softened and hazy appearance,blur
+Apply a filter that reduces the sharpness of the image,blur
+Create a version of the image that is less focused and more abstract,blur
+Apply a filter that reduces the harshness of the image,blur
+Give the image a more delicate and gentle appearance,blur
+Add a touch of softness and gentleness to the image,blur
+Create a more dreamlike and surreal version of the image,blur
+Create a diffused and gentle version of the image,blur
+Add a gentle and dreamy quality to the image,blur
+Add more light to the image,bright
+Enhance the luminosity of the image,bright
+Boost the lightness of the image,bright
+Amplify the illumination of the image,bright
+Heighten the visibility of the image,bright
+Intensify the glow of the image,bright
+Raise the luminance of the image,bright
+Improve the clarity of the image,bright
+Enhance the radiance of the image,bright
+Make the image more visible,bright
+Lighten the tones of the image,bright
+Boost the luminosity of the image without overexposing it,bright
+Increase the light levels of the image without losing details in the shadows,bright
+Create a more vibrant and radiant version of the image,bright
+Increase the luminosity of the image,bright
+Make the image more radiant,bright
+Enhance the image's illumination,bright
+Make the image more vibrant,bright
+Increase the image's lightness,bright
+Add more brightness to the image,bright
+Make the image more luminous,bright
+Increase the image's radiance,bright
+Enhance the image's luminosity,bright
+Add more light to the image,bright
+Improve the clarity of the image,sharp
+Increase the definition of the image,sharp
+Enhance the focus of the image,sharp
+Make the image more distinct,sharp
+Add more detail to the image,sharp
+Heighten the precision of the image,sharp
+Improve the crispness of the image,sharp
+Enhance the acutance of the image,sharp
+Boost the resolution of the image,sharp
+Improve the edge definition of the image,sharp
+Enhance the visual sharpness of the image,sharp
+Make the image more refined,sharp
+Increase the level of detail in the image without adding noise,sharp
+Improve the overall quality of the image,sharp
+Make the image more clear and detailed.,sharp
+Increase the image's clarity,sharp
+Enhance the image's focus,sharp
+Make the image more detailed,sharp
+Improve the image's definition,sharp
+Make the image more crisp,sharp
+Enhance the image's sharpness,sharp
+Increase the image's resolution,sharp
+Make the image more distinct,sharp
+Improve the image's edge contrast,sharp
+Enhance the image's detail,sharp
+Increase the difference between light and dark areas of the image,contrast
+Improve the tonal separation of the image,contrast
+Boost the variation of lightness and darkness in the image,contrast
+Increase the tonal depth of the image,contrast
+Improve the distinction between shadows and highlights in the image,contrast
+Adjust the ratio of dark to light areas in the image,contrast
+Increase the tonal variation of the image,contrast
+Improve the balance of light and dark in the image,contrast
+Boost the tonal contrast of the image,contrast
+Increase the variation of tones in the image,contrast
+Enhance the clarity of the image by improving the tonal separation,contrast
+Improve the visual interest of the image by adding more tonal depth,contrast
+Make the image more vibrant by increasing the tonal range,contrast
+Enhance the quality of the image by optimizing the tonal balance.,contrast
+Adjust the image's tonal range,contrast
+Increase the difference between the light and dark areas of the image,contrast
+Make the image more defined,contrast
+Enhance the image's separation of tones,contrast
+Increase the image's depth,contrast
+Make the image more vivid,contrast
+Improve the image's clarity,contrast
+Enhance the image's detail,contrast
+Increase the image's definition,contrast
+Make the image more striking,contrast
+Adjust the strength of the coloration in the image,saturate
+Alter the richness of the colors in the image,saturate
+Alter the chromatic intensity of the image,saturate
+Adjust the vibrancy of the colors in the image,saturate
+Adjust the level of chroma in the image,saturate
+Modify the color strength in the image,saturate
+Modify the degree of color saturation in the image,saturate
+Intensify or reduce the vividness of the colors in the image,saturate
+Adjust the level of color depth in the image,saturate
+Improve the color purity of the image,saturate
+Increase the amount of color in the image,saturate
+Adjust the saturation level of the colors in the image,saturate
+Modify the degree of color intensity in the image,saturate
+Enhance the chroma in the image.,saturate
+Increase the intensity of the colors in the image,saturate
+Make the colors in the image more intense,saturate
+Add more chroma to the image,saturate
+Boost the colorfulness of the image,saturate
+Enhance the hue of the image,saturate
+Deepen the colors in the image,saturate
+Amplify the saturation of the image,saturate
+Make the image more colorful,saturate
+Add more depth to the colors in the image,saturate
+Increase the chroma intensity of the image,saturate
+Soften the image using a specific type of smoothing filter,gaussian
+Use a smoothing filter to reduce the detail in the image,gaussian
+Smooth out the image using a particular type of smoothing effect,gaussian
+Reduce the appearance of sharp edges in the image by using a smoothing filter,gaussian
+Apply a smoothing effect to the image to reduce the level of detail,gaussian
+Use a specific type of smoothing filter to make the image look softer,gaussian
+Reduce the appearance of fine details in the image by using a smoothing filter,gaussian
+Apply a smoothing effect to the image to create a softer look,gaussian
+Use a particular type of smoothing filter to reduce the clarity of the image,gaussian
+Soften the details in the image by applying a smoothing effect,gaussian
+Apply a low-pass filter to the image,gaussian
+Reduce the high-frequency components of the image,gaussian
+Apply a smoothing kernel to the image,gaussian
+Eliminate high-frequency noise in the image,gaussian
+Reduce the sharpness and details in the image,gaussian
+Apply a filter to reduce image noise,gaussian
+Create a smoother version of the image,gaussian
+Use a filter to reduce image graininess,gaussian
+Apply a filter to make the image less sharp,gaussian
+Blur the image to reduce noise and detail,gaussian
+Apply a filter to decrease the image's sharpness and contrast,gaussian
+Smooth the image to make it appear less jagged or pixelated.,gaussian
+Reverse the colors of the image.,invert
+Create a negative of the image.,invert
+Convert the colors of the image to their complementary colors.,invert
+Flip the tonality of the image.,invert
+Swap the light and dark areas of the image.,invert
+Transform the image to its opposite color scheme.,invert
+Perform a color reversal of the image.,invert
+Change the color values of the image to their opposite values.,invert
+Convert the image to its complement.,invert
+Switch the lightness and darkness of the image.,invert
+Make a reverse color version of the image.,invert
+Turn the colors of the image upside down.,invert
+Generate an opposite color spectrum of the image.,invert
+Create a color-inverted version of the image,invert
+Flip the colors of the image,invert
+Change the colors of the image to their opposites,invert
+Transform the colors of the image into their complementary colors,invert
+Swap the colors of the image,invert
+Turn the colors of the image into their opposite shades,invert
+Reverse the tones of the image,invert
+Flip the tones of the image,invert
+Change the tones of the image to their opposites,invert
+Transform the tones of the image into their complementary shades,invert
+Turn the image,rotate
+Spin the image,rotate
+Twist the image,rotate
+Pivot the image,rotate
+Tilt the image,rotate
+Shift the orientation of the image,rotate
+Change the angle of the image,rotate
+Adjust the direction of the image,rotate
+Change the direction of the image.,rotate
+Shift the image's position by turning it.,rotate
+Give the picture a different orientation.,rotate
+Adjust the alignment of the image.,rotate
+Turn the picture around its center point.,rotate
+Reorient the image to a new position.,rotate
+Change the angle of the image,rotate
+Alter the image's position by rotating it.,rotate
+Reorient the image to a new perspective.,rotate
+Transform the picture to a different angle.,rotate
+Give the image a different facing direction.,rotate
+Pivot the picture to a new position.,rotate
+Adjust the image's directional alignment.,rotate
+Twist the orientation of the picture.,rotate
+Give the image a new facing orientation.,rotate
+Shift the position of the image by a certain degree. ,rotate
+Tilt the image at a different angle.,rotate
+Mirror the image from left to right.,flip
+Reflect the image horizontally.,flip
+Invert the image along the vertical axis.,flip
+Swap the image's left and right sides.,flip
+Create a symmetrical copy of the image.,flip
+Duplicate the image in a flipped orientation.,flip
+Generate a horizontal reflection of the image.,flip
+Turn the image inside out from left to right.,flip
+Make a lateral inversion of the image.,flip
+Transform the image to face in the opposite direction.,flip
+Change the image's horizontal orientation.,flip
+Flip the image across the vertical axis.,flip
+Create a mirror image of the original horizontally.,flip
+Turn the image over,flip
+Reverse the image,flip
+Invert the image,flip
+Mirror the image,flip
+Turn the image upside down,flip
+Reverse the image horizontally,flip
+Swap the image left to right,flip
+Flip the image on its axis,flip
+Rotate the image horizontally,flip
+Reverse the orientation of the image,flip
