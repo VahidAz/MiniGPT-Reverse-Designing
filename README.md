@@ -6,7 +6,7 @@ This repository is the impelementation for the <font size='5'>**MiniGPT-Reverse-
       <img src=figs/model.png width=500, height=500>
 </p>
 <p align="center">
-      <img src=figs/output_sample.png width=500, height=500>
+      <img src=figs/output_sample.png width=800, height=500>
 </p>
 
 Reverse designing,  which could be defined as a complex vision-language task, aims to predict the edits and their parameters, given a source image, an edited version, and an optional high-level textual edit description. This task requires VLMs to comprehend the interplay between the source image, the edited version, and the optional textual context simultaneously, going beyond traditional vision-language tasks. In this paper, we extend and fine-tune MiniGPT-4 for the reverse designing task. Our experiments demonstrate the extensibility of off-the-shelf VLMs, specifically  MiniGPT-4, for more complex tasks such as reverse designing.
